@@ -1,0 +1,51 @@
+[
+    {
+        "id": "12a4b6a5f30f1ddd",
+        "type": "mqtt in",
+        "z": "780e22a48c22b623",
+        "name": "SensorInput",
+        "topic": "sensor",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "4ea75ffe903ac18b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "6e532db7ae75480b",
+                "c8d6146e5232849a",
+                "bb60676102a41690"
+            ]
+        ]
+    },
+    {
+        "id": "4ea75ffe903ac18b",
+        "type": "mqtt-broker",
+        "name": "erastusd",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
